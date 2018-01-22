@@ -72,13 +72,13 @@ local function TooltipTextCallback()
 		local balanceFontColor = GetBalanceColor(currencyCount,startcurrency)
 		return I18N["Used to create or upgrade Legion Legendary items."].."\r\r"..
 			TitanUtils_GetHighlightText("[Information]") .. "\r"
-			.. I18N["Total acquired: "] .. TitanUtils_GetColoredText(defaultIfEmpty(currencyCount, "0"), HIGHLIGHT_FONT_COLOR)  .. "\r"
-			.. I18N["Session balance: "] .. TitanUtils_GetColoredText(defaultIfEmpty(currencyCount - startcurrency, "0"), balanceFontColor)
+			.. I18N["Total acquired:"] .." ".. TitanUtils_GetColoredText(defaultIfEmpty(currencyCount, "0"), HIGHLIGHT_FONT_COLOR)  .. "\r"
+			.. I18N["Session balance:"] .. " ".. TitanUtils_GetColoredText(defaultIfEmpty(currencyCount - startcurrency, "0"), balanceFontColor)
 	else
 		return I18N["Used to create or upgrade Legion Legendary items."]..
 			"\r\r" ..
 			TitanUtils_GetHighlightText("["..I18N["Information"].."]") .. "\r"
-			.. I18N["Total acquired: "] .. TitanUtils_GetColoredText(defaultIfEmpty(currencyCount, "0"), HIGHLIGHT_FONT_COLOR)  .. "\r"
+			.. I18N["Total acquired:"].." " .. TitanUtils_GetColoredText(defaultIfEmpty(currencyCount, "0"), HIGHLIGHT_FONT_COLOR)  .. "\r"
 	end
 
 end
