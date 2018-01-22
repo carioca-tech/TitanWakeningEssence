@@ -1,7 +1,7 @@
 ## Interface: 070300
 ## Title: Titan Panel [Wakening Essence] |cffffffffBy Thymorr
 ## Author: Otiluke
-## Version: 0.0.2
+## Version: 0.0.3
 ## Notes: Titan Panel Plugin for Wakening Essences
 ## X-Category: Buffs, Combat
 ## DefaultState: Enabled
